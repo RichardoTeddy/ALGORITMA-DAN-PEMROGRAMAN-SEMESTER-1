@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Praktikum3d {
+
+    public static void main(String[] args) {
+       int total1,total2,total3,jam;
+       int golongan;
+       Scanner angka=new Scanner(System.in);
+        System.out.print("Jumlah jam kerja anda      : ");
+        jam=angka.nextInt();
+        System.out.print("Golongan Pegawai (G1/G2/G3): ");
+        golongan =angka.nextInt();
+        if(golongan == 1){
+            System.out.println(jam*10000);
+        }
+        else if(golongan==2){
+           
+            System.out.println(jam * 20000);
+        }
+        else {
+            System.out.println(jam* 30000);
+        }
+        System.out.println("Program ini dibuat oleh Richardo Teddy_215314015");
+    }
+    
+}
