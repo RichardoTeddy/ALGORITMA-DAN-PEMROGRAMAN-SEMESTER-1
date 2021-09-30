@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Praktikum1d {
+
+    public static void main(String[] args) {
+    Scanner aljabar=new Scanner(System.in);
+     int a,b,c;         //deklarasi integer a,b,c
+     double p;          //deklarasi double p
+        
+        System.out.print(" Masukkan a: "); // meminta user memasukkan data a
+        a = aljabar.nextInt();
+        System.out.print(" Masukkan b: "); // meminta user memasukkan data b
+        b = aljabar.nextInt(); 
+        System.out.print(" Masukkan c: "); // meminta user memasukkan data c
+        c = aljabar.nextInt(); 
+        //rumus
+        p = (double) ((Math.sqrt(7*a))/(c-10)- ((Math.sqrt ((3*b)+25))*(Math.sqrt (c+13))) / ((Math.sqrt (c+13))*(Math.sqrt (c+13))));       //menghitung aljabar p
+        
+            
+                System.out.println("Hasil p adalah:" +p);
+                System.out.println("Program Ini Dibuat oleh Richardo Teddy_215314015");
+    }    // akhir dari main()
+    
+}    // akhir dari class praktikum1d
