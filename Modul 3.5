@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class Praktikum5 {
+
+    public static void main(String[] args) {
+     Scanner diskon =new Scanner(System.in);
+     int a,b,c,d,e;
+    
+
+        System.out.println("TOKO DIMAS-JAYA");
+        System.out.print(" Harga Barang "); // meminta user memasukkan data a
+        a = diskon.nextInt();
+        System.out.print(" Jumlah Barang "); // meminta user memasukkan data a
+        b = diskon.nextInt();  
+        c =((a*b)* 20/100) ;      
+        d = a*b;
+        e = d-c;
+        System.out.println("_____________________________________");
+        System.out.println("Harga Sebelum Discount adalah :"+d);        
+        System.out.println("Discount                      :"+c);
+        System.out.println("Harga Setelah Discount adalah :"+e);
+        System.out.println("Program Ini Dibuat oleh Richardo Teddy_215314015");
+    }    
+    
+}
