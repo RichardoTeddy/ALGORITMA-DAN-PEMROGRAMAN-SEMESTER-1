@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class Praktikum1b {
+    
+    
+    public static void main(String[] args) {
+     Scanner aljabar=new Scanner(System.in);
+     int a,b,c,p;       //deklarasi integer a,b,c,p
+     
+        
+        System.out.print(" Masukkan a: "); // meminta user memasukkan data a
+        a = aljabar.nextInt();
+        System.out.print(" Masukkan b: "); // meminta user memasukkan data b
+        b = aljabar.nextInt();
+        System.out.print(" Masukkan c: "); // meminta user memasukkan data c
+        c = aljabar.nextInt();  
+        //rumus
+        p = (int) ((8-a)*(6-b)+ Math.pow(c,2));       //menghitung aljabar p
+        
+            
+                System.out.println("Hasil p adalah:" +p);
+                System.out.println("Program Ini Dibuat oleh Richardo Teddy_215314015");
+    }    // akhir dari main()
+    
+}    // akhir dari class praktikum1b
