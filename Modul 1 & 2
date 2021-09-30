@@ -1,0 +1,12 @@
+package hitungkali1;
+public class HitungKali1 {
+    public static void main(String[] args) {
+       
+      int hasilPangkat, nilai;
+
+        nilai=3;
+        hasilPangkat=nilai*nilai ;			
+        System.out.println( "Hasil dari pangkat adalah :" + hasilPangkat); 
+        System.out.println("Program Ini Dibuat Oleh Richardo Teddy_215314015");
+    }
+}
