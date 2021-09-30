@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class GanjilGenap {
+
+    public static void main(String[] args) {
+       int a;
+       String b;
+       Scanner angka=new Scanner(System.in);
+        System.out.print("Masukkan angka anda: ");
+        a=angka.nextInt();
+        
+        if(a%2==0){
+            b =("Genap");
+        }
+        else{
+            b=("Ganjil");
+        }
+        System.out.println("Bilangan ini adalah "+b);
+    }
+    
+}
