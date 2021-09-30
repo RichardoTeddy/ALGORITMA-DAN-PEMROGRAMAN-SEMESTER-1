@@ -1,0 +1,30 @@
+
+import java.util.Scanner;
+public class Praktikum6 {
+
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner (System.in);
+        System.out.print("Ukuran Kaos Anda (S,M,L,XL,XXL) : ");
+  
+        String size = in.nextLine();
+        switch (size) {
+         case "S":
+             size = "Harganya adalah Rp30.000";
+             break;
+        case "M":
+             size = "Harganya adalah Rp38.000";
+             break;
+        case "L":
+             size = "Harganya adalah Rp45.000";
+             break;
+        case "XL":
+             size = "Harganya adalah Rp50.000";
+             break;
+        case "XXL":
+             size = "Harganya adalah Rp60.000";
+             break;
+        }       
+        System.out.println( size );
+    }
+    }
