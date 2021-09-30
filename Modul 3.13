@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Praktikum9d {
+
+  
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        double r,t,vol,luas;
+        double phi=3.14;
+        System.out.println("Menghitung Volume dan Luas Selimut Kerucut ");
+        System.out.print("Masukkan Jari-jari : ");
+        r =input.nextDouble();
+        System.out.print("Masukkan Tinggi    : ");
+        t =input.nextDouble();
+        vol = ((phi* r*r*t)/3) ;
+        luas = ((phi*Math.pow(r,2))+(phi*Math.pow(r,2))*t) ;
+        System.out.println("Volume Kerucut       : " +vol); 
+        System.out.println("Luas Selimut Kerucut  : " +luas); 
+        System.out.println("Program Ini Dibuat oleh Richardo Teddy_215314015");
+        }    
+    }
