@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class Praktikum4 {
+
+  
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+       
+        int makan,lauk,minuman,a,b,c,d;
+        System.out.println("WARUNG MAKAN DIMAS JAYA");
+        System.out.print("Jumlah Makan  : ");
+        makan =input.nextInt();
+        System.out.print("Jumlah Lauk   : ");
+        lauk =input.nextInt();
+        System.out.print("Jumlah Minum  : ");
+        minuman =input.nextInt();
+        
+        a=makan*8000;
+        b=lauk*3000;
+        c=minuman*2000;
+        d=a+b+c;
+        
+        System.out.println("_______________________");
+        System.out.println("Harga Total   : "+d);
+         System.out.println("Program Ini Dibuat oleh Richardo Teddy_215314015");
+        }
+    }
