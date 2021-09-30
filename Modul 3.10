@@ -1,0 +1,33 @@
+import java.util.Scanner;
+public class Praktikum5d {
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        double Aa,Ba,Ca,Ao,Bo,Co;
+        double AB,BC,AC;
+        System.out.println("Menghitung Keliling dan Luas Segitiga Sembarang ");
+        System.out.println("Masukkan nilai a");
+        Aa = input.nextDouble();
+        System.out.println("Masukkan nilai b");
+        Ba = input.nextDouble();
+        System.out.println("Masukkan nilai c");
+        Ca = input.nextDouble();
+        
+        System.out.println("Masukkan nilai a");
+        Ao = input.nextDouble();
+        System.out.println("Masukkan nilai b");
+        Bo = input.nextDouble();
+        System.out.println("Masukkan nilai c");
+        Co = input.nextDouble();
+        
+        BC = Math.sqrt(Math.pow(Ba-Aa,2)) +(Math.pow(Co-Ao,2));
+        AC = Math.sqrt(Math.pow(Aa-Ba,2)) +(Math.pow(Co-Bo,2));
+        AB = Math.sqrt(Math.pow(Aa-Ca,2)) +(Math.pow(Bo-Co,2));
+        
+        double s=(BC+AC+AB)/2;
+        double LuasSegi3=Math.sqrt(s*(s-BC)*(s-AC)*(s-AB));
+        System.out.println("Setengah Keliling Segitiga :" +s);
+        System.out.println("Luas Segitiga              :" +LuasSegi3);
+        System.out.println("Program ini dibuat oleh Richardo Teddy_215314015");
+}
+    
+    }
