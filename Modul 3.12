@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Praktikum6d {
+
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        int a,puluhan,satuan;
+        System.out.print("Masukkan a   : ");
+        a =input.nextInt();
+        puluhan = (a/10) ;
+        satuan = a%10;
+        System.out.println("____________________________");
+        System.out.println("Puluhan :" + puluhan); 
+        System.out.println("Satuan :" + satuan); 
+        System.out.println("Program ini dibuat oleh Richardo Teddy_215314015");
+}
+    
+    }
