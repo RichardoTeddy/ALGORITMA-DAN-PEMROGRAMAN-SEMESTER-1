@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Praktikum3 {
+
+    public static void main(String[] args) {
+       Scanner sc=new Scanner(System.in);
+        double hrg1=120000,hrg2=500000,total;
+        int lama;
+        String kelas;
+        System.out.println("Lama menginap : ");
+        lama = sc.nextInt();
+        System.out.println("Apakah berada di suite room ?(Y/N)");
+        kelas = sc.next();
+        if (kelas.equals("Y") || kelas.equals("y")){
+        total=lama*hrg2;}
+        else{
+        total=lama*hrg1;
+        System.out.println("Harga yang harus dibayarkan : " +total);}
+        System.out.println("Program ini dibuat oleh Richardo Teddy_215314015");
+    }
+}
