@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Praktikum10d {
+
+  
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        double v0,t,St,Vt;
+        double a = 10 ;
+        System.out.println("Menghitung Kecepatan dan Jarak Tempuh ");
+        System.out.print("Masukkan Kecepatan(m/s)       : ");
+        v0 =input.nextDouble();
+        System.out.print("Masukkan Waktu tempuh(detik)  : ");
+        t =input.nextDouble();
+        Vt = (v0+ (a*t)) ;
+        St = ((v0*t) + ((a*(Math.pow(t,2)))/2) );
+        System.out.println("Kecepatanya   : " +Vt); 
+        System.out.println("Jarak Tempuh  : " +St); 
+        System.out.println("Program Ini Dibuat oleh Richardo Teddy_215314015");
+        }    
+    }
