@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class Praktikum6 {
+
+    public static void main(String[] args) {
+       
+       String a,b;
+       int c,d;
+       Scanner angka=new Scanner(System.in);
+        System.out.print("Masukkan Nama anda: ");
+        a = angka.next();
+        System.out.print("Masukkan Umur anda: ");
+        c=angka.nextInt();
+        System.out.println("");
+        System.out.print("Masukkan Nama anda: ");
+        b = angka.next();
+        System.out.print("Masukkan Umur anda: ");
+        d =angka.nextInt();
+       
+        if(c>=d){
+            System.out.println(a+"Lebih Tua dari"+b); 
+        }
+ 
+        else{
+           System.out.println(b+ " Lebih Tua dari "+ a); 
+        }
+        System.out.println("Program ini dibuat oleh Richardo Teddy_215314015");
+    }
+}
+
