@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class Praktikum2d {
+
+    public static void main(String[] args) {
+       int a,teddy,rangga,dimas;
+       String c;
+       Scanner angka=new Scanner(System.in);
+        System.out.print("Masukkan NIM anda    : ");
+        a=angka.nextInt();
+        System.out.print("Masukkan Password anda: ");
+        c =angka.next();
+        teddy=215314015;
+        rangga=215314003;
+        dimas=215314019;
+        if(a == teddy || a==rangga || a==dimas){
+            System.out.println("Selamat datang di Sistem Informasi Mahasiswa");
+        }
+        else{
+            System.out.println("Password yang anda masukkan salah. Silahkan keluar");
+        }
+        System.out.println("Program ini dibuat oleh Richardo Teddy_215314015");
+    }
+    
+}
