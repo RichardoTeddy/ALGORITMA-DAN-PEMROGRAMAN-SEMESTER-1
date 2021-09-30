@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Praktikum1d {
+
+  
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+       
+        double us1,us2,uas,a;
+        System.out.println("Nilai Ujian Semester");
+        System.out.print("US 1 : ");
+        us1 =input.nextInt();
+        System.out.print("US 2 : ");
+        us2 =input.nextInt();
+        System.out.print("UAS  : ");
+        uas =input.nextInt();       
+        a= (us1*30/100) + (us2*30/100) + (uas*40/100);     
+        System.out.println("____________________________");
+        System.out.println("Nilai Final          : "+a); 
+        System.out.println("Program Ini Dibuat oleh Richardo Teddy_215314015");
+}
+    }
