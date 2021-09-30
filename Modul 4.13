@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Praktikum5d {
+
+    public static void main(String[] args) {
+       Scanner angka=new Scanner(System.in);
+       int a,b,c;
+        System.out.print("Masukan angka pertama: ");
+        a  = angka.nextInt();
+        System.out.print("Masukan angka kedua: ");
+        b  = angka.nextInt();
+       System.out.print("Masukan angka ketiga: ");
+        c  = angka.nextInt();
+        if(a > b && a>c ){
+            System.out.println("Bilangan terbesarnya adalah "+a); 
+        }
+        else if(b > a && b > c ){
+          System.out.println("Bilangan terbesarnya adalah "+b); 
+        }
+         else  {
+          System.out.println("Bilangan terbesarnya adalah "+c); 
+        }
+        System.out.println("Program ini dibuat oleh Richardo Teddy_215314015");
+    }
+}
+
