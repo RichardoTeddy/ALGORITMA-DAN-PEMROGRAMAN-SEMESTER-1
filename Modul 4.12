@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Praktikum4d {
+
+    public static void main(String[] args) {
+       Scanner angka=new Scanner(System.in);
+       double sales;
+        System.out.print("Masukan Hasil Penjualan: ");
+        sales  = angka.nextDouble();
+        if(sales < 10000000 ){
+            System.out.println("Anda tidak dapat Komisi "); 
+        }
+        else if(sales >= 10000000 && sales<=50000000) {
+          System.out.println("Komisi anda adalah "+(sales*2/100)); 
+        }
+         else  {
+          System.out.println("Komisi anda adalah "+(sales*3/100)); 
+        }
+        System.out.println("Program ini dibuat oleh Richardo Teddy_215314015");
+    }
+}
+
