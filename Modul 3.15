@@ -1,0 +1,40 @@
+import java.util.Scanner;
+public class DiscountTV {
+
+
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        System.out.print("Type (1.lED / 2.LCD) :");
+        int type =input.nextInt();
+        System.out.print("Ukuran (Inc)         :");
+        int ukuran =input.nextInt();
+        System.out.print("Harga TV             :");
+        int tv = input.nextInt();
+        double a,b;
+        switch (type){
+            case 1:
+                a= tv*5/100;
+                b= tv-a;
+                System.out.println("Harganya adalah " + b);
+                break;
+            case 2:
+                if (ukuran ==14){
+                    a=tv*10/100;
+                    b=tv-a;
+                    System.out.println("Harganya adalah "+b);
+                }
+                else if (ukuran == 32){
+                    a=tv*12/100;
+                    b=tv-a;
+                    System.out.println("Harganya adalah "+b);
+                }
+                else if (ukuran > 40){
+                    a=tv*15/100;
+                    b=tv-a;
+                    System.out.println("Harganya adalah "+b);
+            }
+                break;
+        }
+    }
+    
+}
