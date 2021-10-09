@@ -1,0 +1,8 @@
+public class Praktikum11 {
+    public static void main(String[] args) {
+       int n=99 ;
+       System.out.print( n++ ); 
+       System.out.println("Program ini dibuat oleh Richardo Teddy_215314015");
+    }
+    
+}
