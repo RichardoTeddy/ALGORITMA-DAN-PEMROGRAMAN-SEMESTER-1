@@ -1,0 +1,12 @@
+public class Praktikum13 {
+
+    public static void main(String[] args) {
+       int x=15 ;
+       int sum=17;
+        sum = sum + (x++);
+       
+       System.out.println("sum="+sum); 
+        System.out.println("x="+x); 
+        System.out.println("Program ini dibuat oleh Richardo Teddy_215314015"); 
+    }
+}
