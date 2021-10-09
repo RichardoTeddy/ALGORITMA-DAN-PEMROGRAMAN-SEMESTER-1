@@ -1,0 +1,25 @@
+public class Wrapper  {
+     
+    public static void main(String[] args) {
+         
+        // Initializing a Wrapper variable
+        Integer x = 3;
+ 
+        // Switch statement with Wrapper variable x
+        switch (x) {
+        case 1:
+            System.out.println("Value of x = 1");
+            break;
+        case 2:
+            System.out.println("Value of x = 2");
+            break;
+        case 3:
+            System.out.println("Value of x = 3");
+            break;
+             
+        // Default case statement
+        default:
+            System.out.println("Value of x is undefined");
+        }
+    }
+}
