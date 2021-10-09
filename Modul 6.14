@@ -1,0 +1,10 @@
+public class Praktikum14 {
+
+    public static void main(String[] args) {
+       int c ;
+      c= 125-15*4/3-10+6;
+      System.out.println(c); 
+      System.out.println("Program ini dibuat oleh Richardo Teddy_215314015"); 
+    }
+    
+}
