@@ -1,0 +1,39 @@
+import java.util.Scanner;
+public class Praktikum4 {
+    public static void main(String[] args) {
+        Scanner in = new Scanner (System.in);
+        System.out.print("Ukuran Kaos Anda (S,M,L,XL,XXL)          : ");
+        String size = in.nextLine();
+        System.out.print("Masukkan Jumlah barang yang ingin dibeli : ");
+        int jum = in.nextInt();
+        int harga;
+        switch (size) {
+         case "S":
+             harga = jum*30000;
+             size = "Harganya adalah "+ harga;
+             break;
+        case "M":
+             harga = jum*38000;
+             size = "Harganya adalah "+ harga;
+             break;
+        case "L":
+             harga = jum*45000;
+             size = "Harganya adalah "+ harga;
+             break;
+        case "XL":
+             harga = jum*50000;
+             size = "Harganya adalah "+ harga;
+             break;
+        case "XXL":
+             harga = jum*60000;
+             size = "Harganya adalah "+ harga;
+             break;
+        default:  
+                size="Maaf Tidak tersedia";
+             break;
+        }       
+        System.out.println( size );
+        System.out.println("Program ini dibuat oleh Richardo Teddy_215314015");
+       
+    }
+    }
