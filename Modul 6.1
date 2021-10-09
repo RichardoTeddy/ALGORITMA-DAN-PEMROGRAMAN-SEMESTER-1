@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Praktikum1 {
+    public static void main(String[] args) {
+        char taxCode;
+        double price;
+        Scanner input=new Scanner(System.in);
+        System.out.print("Masukkan Tax Code: ");
+        taxCode=input.next().charAt(0);
+        System.out.print("Masukkan Price   : ");
+        price=input.nextDouble();
+            if(taxCode=='T'){
+            price=price*1.2;
+        }
+        else{
+            System.out.println("Not Valid");
+        }
+        System.out.println(price);
+        System.out.println("Program ini dibuat oleh Richardo Teddy_215314015");
+    }
+    
+}
