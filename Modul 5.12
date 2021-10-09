@@ -1,0 +1,25 @@
+
+import java.util.Scanner;
+
+public class menu {
+    public static void main(String[] args) {
+        Scanner in = new Scanner (System.in);
+        
+        System.out.print("Menu Makanan : \n 1. Bubur ayam \n 2. Burjo \n 3. Burgung \n\n Masukan pilihan :");
+        int menu = in.nextInt();
+        switch (menu){
+            case 1:
+                System.out.println(" Anda memilih Bubur ayam");
+                break;
+            case 2:
+                System.out.println(" Anda memilih Burjo");
+                break;
+            case 3:
+            System.out.println(" Anda memilih Burgung");
+                break;
+        }
+    }
+
+    }
+    
+
