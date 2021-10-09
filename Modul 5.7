@@ -1,0 +1,30 @@
+enum shoes {
+        Nike, Adidas, Puma, Reebok;
+    }
+ 
+public class Enum {
+    public static void main(String[] args) {
+      
+        shoes a1 = shoes.Adidas;
+ 
+        switch (a1) {
+        // does not match
+        case Nike:
+            System.out.println("Nike - Just do it");
+ 
+            break;
+        // matches
+        case Adidas:
+            System.out.println("Adidas - Impossible is nothing");
+            break;
+        // does not match
+        case Puma:
+            System.out.println("Puma - Forever Faster");
+            break;
+        // does not match
+        case Reebok:
+            System.out.println("Reebok - I Am What I Am");
+            break;
+        }
+    }
+}
