@@ -1,0 +1,72 @@
+import java.util.Scanner;
+public class Praktikum5 { 
+  public static void main(String[] args) {
+      Scanner in=new Scanner(System.in);
+      int bonus;
+      System.out.print("Masukan Golongan anda(I/II/III/IV) : ");
+      String golongan=in.next(); 
+      System.out.print("Masukan Masa Kerja anda(tahun)     : ");
+      int thn=in.nextInt();  
+      System.out.print("Masukan Gaji Pokok anda            : ");
+      int gaji=in.nextInt(); 
+    switch(golongan) {
+      case "I":
+       if(thn <= 10  ){
+           bonus=gaji*50/100;
+           System.out.println("Bonus anda adalah " +bonus);
+        } 
+       else if (thn >= 10 && thn <= 20){
+           bonus=gaji*60/100;
+           System.out.println("Bonus anda adalah " +bonus);
+        }
+       else if (thn >= 20 && thn <= 30){
+           bonus=gaji*70/100;
+           System.out.println("Bonus anda adalah " +bonus);
+        }
+        break;
+      case "II":
+        if(thn <= 10  ){
+            bonus=gaji*60/100;
+           System.out.println("Bonus anda adalah " +bonus);
+        } 
+       else if (thn >= 10 && thn <= 20){
+           bonus=gaji*70/100;
+           System.out.println("Bonus anda adalah " +bonus);
+        }
+       else if (thn >= 20 && thn <= 30){
+           bonus=gaji*80/100;
+           System.out.println("Bonus anda adalah " +bonus);
+        }
+        break;
+      case "III":
+        if(thn <= 10  ){
+            bonus=gaji*70/100;
+           System.out.println("Bonus anda adalah " +bonus);
+        } 
+       else if (thn >= 10 && thn <= 20){
+           bonus=gaji*80/100;
+           System.out.println("Bonus anda adalah " +bonus);
+        }
+       else if (thn >= 20 && thn <= 30){
+           bonus=gaji*90/100;
+           System.out.println("Bonus anda adalah " +bonus);
+        }
+        break;
+      case "IV":
+        if(thn <= 10  ){
+            bonus=gaji*80/100;
+           System.out.println("Bonus anda adalah " +bonus);
+        } 
+       else if (thn >= 10 && thn <= 20){
+           bonus=gaji*90/100;
+           System.out.println("Bonus anda adalah " +bonus);
+        }
+       else if (thn >= 20 && thn <= 30){
+           bonus=gaji*100/100;
+           System.out.println("Bonus anda adalah " +bonus);
+        }
+        break;
+    }
+      System.out.println("Program ini dibuat oleh Richardo Teddy_215314015");
+  }
+}
