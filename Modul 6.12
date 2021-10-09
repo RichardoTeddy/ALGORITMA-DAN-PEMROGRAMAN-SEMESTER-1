@@ -1,0 +1,12 @@
+public class Praktikum12 {
+
+    public static void main(String[] args) {
+       int d=15 ; 
+       int c;
+        c = (5*++d)%3+d;
+       System.out.print(c); 
+       System.out.println("Program ini dibuat oleh Richardo Teddy_215314015");
+       
+    }
+    
+}
