@@ -1,0 +1,13 @@
+public class Praktikum10 {
+
+    public static void main(String[] args) {
+       int num=35; 
+       int num1=86 ;
+     
+       
+       System.out.print( num + num1 + " " ); 
+       System.out.print( " " + num + num1 ) ; 
+       System.out.println("Program ini dibuat oleh Richardo Teddy_215314015");
+    }
+    
+}
