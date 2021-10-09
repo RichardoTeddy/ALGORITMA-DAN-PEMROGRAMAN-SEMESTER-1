@@ -1,0 +1,33 @@
+import java.util.Scanner;
+public class Praktikum5 {
+    public static void main(String[] args) {
+        double cost;
+        int distance;
+        Scanner input=new Scanner(System.in);
+        System.out.print("Type Distance :  ");
+        distance=input.nextInt();  
+        if(distance>=0 && distance<=100){
+          cost=5.00;
+        }
+        else if(distance>=100 && distance<=500){
+          cost=8.00;
+        }
+          else if(distance>=500 && distance<=1000){
+          cost=10.00;
+        } 
+         else if(distance>1000){
+          cost=12.00;
+        }
+         else {
+          cost=0;
+        }
+        if (cost==0){
+            System.out.println("Distance Not Valid");
+        }
+        else{
+            System.out.println("Cost = "+ cost);
+        }
+        System.out.println("Program ini dibuat oleh Richardo Teddy_215314015");
+    }
+    
+}
